@@ -17,7 +17,7 @@
 
 
 Name:           gcc-5
-Version:        0.1
+Version:        0.2
 Release:        0
 Summary:        GCC5 wrapper over scl devtoolset-4 from scl
 License:        MIT 
@@ -28,6 +28,7 @@ BuildRequires:  devtoolset-4-runtime
 BuildRequires:  setup
 Provides:       gcc5-c++
 Provides:       gcc5
+Requires:       devtoolset-4-runtime
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 
 %description
